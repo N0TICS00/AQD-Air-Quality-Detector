@@ -1,0 +1,95 @@
+@use 'variabili';
+// Universal Selector
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+//Tag Selector
+body{
+    text-align: center;
+    background-image: variabili.$background-color ;
+    color: #2f2f2f
+}
+a{
+    text-decoration: none;
+    color: #2f2f2f
+}
+a:hover{
+    color: #2f2f2f
+}
+//Class Selector
+//Form
+.form{
+    width: 400px;
+    margin: 0 auto;
+    margin-top: 50%;
+    text-align: center;
+   
+}
+.submit-button{
+    margin-top: 10px;
+    background-image: variabili.$background-color-inverse ;
+    border: none;
+    height: 30px;
+    width: 400px;
+    font-size: 20px;   
+    border-radius: .25rem; 
+}   
+
+
+.hidden{
+    display:none
+}
+//Div Result
+.div{
+    margin: 20px auto;
+    background-color: whitesmoke;
+    height: 450px;
+    width: 400px;  
+    border-radius: .25rem;
+    text-align: center;
+    .spinner, .spinner-border{
+        margin-top: 50px ;
+        z-index: -1;
+    }
+    .widget{
+        width: 400px;
+        height: 200px;
+        border-radius: .25rem;
+        margin: 20px auto;
+        .text-div{
+            z-index: 1;
+            padding-top: 35px;
+        }
+        
+    }
+    .desc-text{
+        padding: 20px
+    } 
+    #map { 
+        height: 180px;
+     }
+}
+
+
+
+.h3-footer{
+    margin-top: 125px;
+}
+
+
+
+//Media Query
+    // Tablet 
+@media only screen and (min-width: 401px) and (max-width: 960px){
+    .form{
+        margin-top: 20%;
+    }
+}
+    //Pc 
+@media only screen and (min-width:961px){
+    .form{
+        margin-top: 10%;
+    }
+}

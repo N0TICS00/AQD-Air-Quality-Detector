@@ -1,0 +1,87 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  text-align: center;
+  background-image: linear-gradient(to right, #4facfe, #00f2fe);
+  color: #2f2f2f;
+}
+
+a {
+  text-decoration: none;
+  color: #2f2f2f;
+}
+
+a:hover {
+  color: #2f2f2f;
+}
+
+.form {
+  width: 400px;
+  margin: 0 auto;
+  margin-top: 50%;
+  text-align: center;
+}
+
+.submit-button {
+  margin-top: 10px;
+  background-image: linear-gradient(to left, #4facfe, #00f2fe);
+  border: none;
+  height: 30px;
+  width: 400px;
+  font-size: 20px;
+  border-radius: 0.25rem;
+}
+
+.hidden {
+  display: none;
+}
+
+.div {
+  margin: 20px auto;
+  background-color: whitesmoke;
+  height: 450px;
+  width: 400px;
+  border-radius: 0.25rem;
+  text-align: center;
+}
+.div .spinner, .div .spinner-border {
+  margin-top: 50px;
+  z-index: -1;
+}
+.div .widget {
+  width: 400px;
+  height: 200px;
+  border-radius: 0.25rem;
+  margin: 20px auto;
+}
+.div .widget .text-div {
+  z-index: 1;
+  padding-top: 35px;
+}
+.div .desc-text {
+  padding: 20px;
+}
+.div #map {
+  height: 180px;
+}
+
+.h3-footer {
+  margin-top: 125px;
+}
+
+@media only screen and (min-width: 401px) and (max-width: 960px) {
+  .form {
+    margin-top: 20%;
+  }
+}
+@media only screen and (min-width: 961px) {
+  .form {
+    margin-top: 10%;
+  }
+}
+
+/*# sourceMappingURL=style.css.map */

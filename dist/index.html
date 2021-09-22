@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <html lang="en"></html>
+    <title>AQD - Air Quality Detector</title>
+    <!--FAVICON-->
+    <link rel="shortcut icon" href="../assets/img/favicon.ico" type="image/x-icon">
+    <!--BOOTSTRAP-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ" crossorigin="anonymous"></script>
+    <!--CSS-->
+    <link rel="stylesheet" href="../assets/css/style.css">
+   <!--LEAFLET.JS-->
+   <link rel="stylesheet" href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css"
+   integrity="sha512-xodZBNTC5n17Xt2atTPuE1HxjVMSvLVW9ocqUKLsCC5CXdbqCmblAshOMAS6/keqq/sMZMZ19scR4PsZChSR7A=="
+   crossorigin=""/>
+   <script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js"
+   integrity="sha512-XQoYMqMTK8LvdxXYG3nZ448hOEQiglfqkJs1NOQV44cWnUrBc8PkAOcXy20w0vlaXaVUearIOBhiXZ5V3ynxwA=="
+   crossorigin=""></script>
+    </head>
+    <!--FORM-->
+    <form class="form-wrap" name="form">
+      <input type="text" name="city" placeholder="Enter the city name" class="form-control form">
+      <input type="submit" value="Submit"class="submit-button">
+   
+    </form>
+    <input type="submit" value="Geolocation"class="geo submit-button">
+    <!--RESULT DIV-->
+    <div class="div">
+      <div class="hidden spinner-border text-primary" role="status">
+        <span class="visually-hidden">Loading...</span>
+        
+      </div>
+    
+      
+      
+      <!--WIDGET-->
+      <div class="widget">
+        <h1 class="text-div h1-city"></h1>
+        <h1 class=" h1-aqi"></h1>
+      </div>
+      <div class="aqi-desc">
+        <p class="desc-text"></p>
+      </div>
+      <!--MAP -->
+      <div id="map" class="hidden map"></div>
+    </div>
+
+    <!--FOOTER-->
+    <footer>
+      <h3 class="h3-footer">Made with ❤️ by <a href="https://n0tics00.github.io/Start2Impact_HTML_CSS/" >Paolo D'Agostino</a></h3>
+    </footer>
+    <!--SCRIPT-->
+   <script defer src="bundle.js"></script>
+  </body>
+</html>
+
