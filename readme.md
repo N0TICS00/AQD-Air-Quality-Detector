@@ -5,7 +5,7 @@
 <!-- PROJECT LOGO -->
 <br />
 <p align="center">
-  <a href="https://github.com/othneildrew/Best-README-Template">
+  <a href="https://github.com/N0TICS00/aqd/">
     <img src="assets/img/favicon.ico" alt="Logo" width="80" height="80">
   </a>
 
@@ -55,7 +55,7 @@
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
-[![Air Quality Detector][https://user-images.githubusercontent.com/76558194/134504041-9aebc404-7617-4db7-b831-220cad6d8b58.png]](https://n0tics00.github.io/aqd/)
+![AQD-Air Quality Detector](https://user-images.githubusercontent.com/76558194/134504041-9aebc404-7617-4db7-b831-220cad6d8b58.png)
 
 
 
@@ -127,7 +127,7 @@ If you want to contribute to this project, please follow these step. Any contrib
 <!-- CONTACT -->
 ## Contact
 
-Personal Website - [Paolo D'Agostino](https://n0tics00.github.io/Start2Impact_HTML_CSS/) - email@example.com
+Personal Website - [Paolo D'Agostino](https://n0tics00.github.io/Start2Impact_HTML_CSS/) - notics.pro@gmail.com
 
 Project Link: [github.com/N0TICS00/aqd](https://github.com/N0TICS00/aqd)
 
