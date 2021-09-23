@@ -14,10 +14,10 @@
   <p align="center">
     An Air Quality Finder for every city
     <br />
-    <a href="https://github.com/othneildrew/Best-README-Template"><strong>Explore the docs »</strong></a>
+    <a href="https://github.com/N0TICS00/aqd"><strong>Explore the docs »</strong></a>
     <br />
     <br />
-    <a href="https://n0tics00.github.io/aqd/">View Demo</a>
+    <a href="https://n0tics00.github.io/AQD-Air-Quality-Detector//">View Demo</a>
     ·
     <a href="https://github.com/N0TICS00/aqd">Repository</a>
     
@@ -131,7 +131,7 @@ If you want to contribute to this project, please follow these step. Any contrib
 
 Personal Website - [Paolo D'Agostino](https://n0tics00.github.io/Start2Impact_HTML_CSS/) - notics.pro@gmail.com
 
-Project Link: [github.com/N0TICS00/aqd](https://github.com/N0TICS00/aqd)
+Project Link: [github.com/N0TICS00/aqd](https://github.com/N0TICS00/AQD-Air-Quality-Detector/)
 
 
 
